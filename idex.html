@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet"  href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <h1>Etch-a-Sketch</h1>
+        <div id="menu">
+            <input type="range" id="sizeRange" min="1" max="100" defaultValue = '16'>
+            <label id = "sizeLabel" for="sizeRange">16</label>
+            <br>
+            <input type="button" id="generator" value="generate">
+            <br>
+            <form id="choiceColor">
+                <input type="radio" name="color" value="blue" checked>
+                <label for="azul">Blue(Default)</label>
+                <br>
+                <input type="radio" name="color" value="black">
+                <label for="black">Black</label>
+                <br>
+                <input type="radio" name="color" value="white">
+                <label for="white">Rubber</label>
+                <br>
+                <input type="radio" name="color" value="user">
+                <label for="user">Chose your own Color</label>
+                <input id = "userChoice" type="color" name="color" value="user">
+            </form>
+            
+        </div>
+        <div id="container"></div>
+        
+        <input type="button" value="clear" id="clear">
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

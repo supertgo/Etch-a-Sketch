@@ -1,0 +1,29 @@
+body{
+  margin:0;padding:0;
+  background-color: #ac71be;
+  font-family: 'Special Elite', monospace;
+}
+
+#container {
+  position: relative;
+  right: 30%;
+  float: right;
+  margin-top: 1vh;
+  margin-right: 6vw;
+  box-sizing: content-box;
+  display: grid;
+  height: 49vh;
+  width: 49vh;
+  border: 1px rgba(0, 0, 0, 0.404) solid;
+  
+  
+}
+
+.cell{
+  border: 1px rgba(0, 0, 0, 0.041) solid;
+  background-color: rgb(255, 255, 255);
+}
+
+label{
+  color: white;
+}
