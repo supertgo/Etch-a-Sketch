@@ -9,12 +9,15 @@
     </head>
 
     <body>
-        <h1>Etch-a-Sketch</h1>
+        <div id="titulo">
+            <h1>Etch-a-Sketch</h1>
+        </div>
+        
         <div id="menu">
             <input type="range" id="sizeRange" min="1" max="100" defaultValue = '16'>
             <label id = "sizeLabel" for="sizeRange">16</label>
             <br>
-            <input type="button" id="generator" value="generate">
+            <input type="button" id="generator" value="Generate Grid" class="botoes">
             <br>
             <form id="choiceColor">
                 <input type="radio" name="color" value="blue" checked>
@@ -30,11 +33,11 @@
                 <label for="user">Chose your own Color</label>
                 <input id = "userChoice" type="color" name="color" value="user">
             </form>
-            
+            <input type="button" value="Clear" id="clear" class="botoes">
         </div>
         <div id="container"></div>
         
-        <input type="button" value="clear" id="clear">
+       
         <script type="text/javascript" src="script.js"></script>
     </body>
 </html>

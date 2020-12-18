@@ -1,11 +1,15 @@
 body{
   margin:0;padding:0;
-  background-color: #ac71be;
+  background-color: #03817b;
   font-family: 'Special Elite', monospace;
 }
-
+#titulo {
+  background-color:  #00ff9d;
+  padding: 1%;
+  
+}
 #container {
-  position: relative;
+  position: absolute;
   right: 30%;
   float: right;
   margin-top: 1vh;
@@ -14,9 +18,9 @@ body{
   display: grid;
   height: 49vh;
   width: 49vh;
+  bottom: 20%;
   border: 1px rgba(0, 0, 0, 0.404) solid;
-  
-  
+   
 }
 
 .cell{
@@ -26,4 +30,15 @@ body{
 
 label{
   color: white;
+}
+
+#menu {
+  position: absolute;
+  left: 10%;
+  padding-top: 10%;
+  text-shadow: 2px 2px black;
+}
+
+.botoes {
+    border-radius: 15%;
 }
