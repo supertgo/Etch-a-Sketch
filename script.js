@@ -84,7 +84,6 @@ const userChoiceEl = document.querySelector('#userChoice');
 createGrid(defaultGridSize);
 
 //pintar
-
 const divItensEl = document.querySelectorAll('.cell');
 divItensEl.forEach(e => e.addEventListener('mouseover', changeColor));
 //apagar
