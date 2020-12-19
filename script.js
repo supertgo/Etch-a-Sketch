@@ -35,6 +35,13 @@ function changeColor() {
     if (getColor === 'user'){
       this.style.backgroundColor = userChoiceEl.value;
     }
+
+   if (getColor === 'rainbow'){
+     let r = Math.floor(Math.random( ) * 255);
+     let g = Math.floor(Math.random( ) * 255);
+     let b = Math.floor(Math.random( ) * 255);
+     this.style.backgroundColor = 'rgb('+r+','+g+','+b+')';
+   }
     
     this.style.backgroundColor = getColor;
 }
