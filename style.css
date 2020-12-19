@@ -3,6 +3,8 @@ body{
   background-color: #03817b;
   font-family: 'Special Elite', monospace;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 #titulo {
   background-color:  #00ff9d;
@@ -11,7 +13,7 @@ body{
 }
 
 #container {
-  position: sticky;
+  position: relative;
   right: 30%;
   float: right;
   margin-top: 1vh;
@@ -35,9 +37,9 @@ label{
 }
 
 #menu {
-  position: sticky;
+  position: relative;
   left: 15%;
-  padding-top: 5%;
+  padding-top: .5%;
   text-shadow: 2px 2px black;
 }
 
