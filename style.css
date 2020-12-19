@@ -2,6 +2,7 @@ body{
   margin:0;padding:0;
   background-color: #03817b;
   font-family: 'Special Elite', monospace;
+  width: 100%;
 }
 #titulo {
   background-color:  #00ff9d;
@@ -10,7 +11,7 @@ body{
 }
 
 #container {
-  position: absolute;
+  position: sticky;
   right: 30%;
   float: right;
   margin-top: 1vh;
@@ -34,9 +35,9 @@ label{
 }
 
 #menu {
-  position: absolute;
-  left: 10%;
-  padding-top: 10%;
+  position: sticky;
+  left: 15%;
+  padding-top: 5%;
   text-shadow: 2px 2px black;
 }
 
